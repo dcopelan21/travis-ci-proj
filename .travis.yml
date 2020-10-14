@@ -19,3 +19,5 @@ deploy:
   app: $EB_APP
   env: $EB_ENV
   bucket_name: $BUCKET_NAME
+  on:
+    branch: main
